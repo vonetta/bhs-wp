@@ -2,6 +2,14 @@
 
 <h1>2 column layout</h1>
 
+<p><em>By <?php the_author(); ?>
+     on <?php echo the_time('l, F jS, Y'); ?>
+     in <?php the_category( ', ' ); ?>
+     <a href="<?php comments_link(); ?>"><?php comments_number(); ?></a></em>
+  </p>
+  <hr>
+  <?php comments_template(); ?>
+
           <div class="col-md-9">
         <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
           <!-- tbs class for headers -->
@@ -21,6 +29,8 @@
           <p>Looks like we have no content for this page?</p>
 
         <?php endif; ?>
+
+        <?php get_sidebar('blog'); ?>
       </div>
 
 

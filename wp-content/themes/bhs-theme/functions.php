@@ -46,12 +46,17 @@ function create_widget($name, $id, $description) {
       'description' => __( $description ),
       'before_widget' => '<div class="widget">',
       'after_widget' => '</div>',
-      'before_title' => '<h2>',
-      'after_title' => '</h2>'
+      'before_title' => '<h3>',
+      'after_title' => '</h3>'
     ));
 }
 
 create_widget( 'Front Page Left', 'front-left', 'Displays on the left of the hompage');
 create_widget( 'Front Page Center', 'front-center', 'Displays on the center of the hompage');
 create_widget( 'Front Page Right', 'front-right', 'Displays on the right of the hompage');
+
+create_widget( 'Page Sidebar', 'page', 'Displays on side of pages with sidebar');
+
+create_widget( 'Blog Sidebar', 'blog', 'Displays on side of pages in blog section');
+
 ?>

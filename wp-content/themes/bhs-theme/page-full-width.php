@@ -1,8 +1,12 @@
+<?php
+/*
+  Template Name: Full Width Template
+ */
+?>
 <?php get_header(); ?>
 
-<h1>2 column layout</h1>
 
-          <div class="col-md-9">
+      <div class="col-md-12">
         <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
           <!-- tbs class for headers -->
           <div class="page-header">
@@ -21,10 +25,9 @@
           <p>Looks like we have no content for this page?</p>
 
         <?php endif; ?>
-      </div>
 
 
 
-
+    </div>
 
 <?php get_footer(); ?>
