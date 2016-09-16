@@ -25,13 +25,13 @@
         </ul>
         <h3>Get Involved!</h3>
         <div class="get-involved">
-          <img src="wp-content/themes/bhs-theme/assets/img/get-involved.png" alt="people">
+          <img src="<?php bloginfo('template_directory'); ?>/assets/img/get-involved.png" alt="people">
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut elementum turpis. Nunc in posuere nisi. <a href="#">Click here for more</a></p>
         </div>
         <hr>
         <h3 class="success">Success Stories!</h3>
         <div class="success-stories">
-          <img src="wp-content/themes/bhs-theme/assets/img/success-stories.png" alt="people" width="91" height="81">
+          <img src="<?php bloginfo('template_directory'); ?>/assets/img/success-stories.png" alt="people" width="91" height="81">
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut elementum turpis. Nunc in posuere nisi. <a href="#">Click here for more</a></p>
         </div>
         <a href="#" class="donate">Donate</a>
@@ -39,7 +39,7 @@
       <!-- END aside -->
       <main class="main" role="main">
         <h2 class="services">Services</h2>
-        <img src="wp-content/themes/bhs-theme/assets/img/since-1973.png" alt="Since 1973" class="large-img" width="651" height="211">
+        <img src="<?php bloginfo('template_directory'); ?>/assets/img/since-1973.png" alt="Since 1973" class="large-img" width="651" height="211">
         <div class="column-container">
           <div class="col-one">
             <h2 class="prevention">Prevention &amp; Services for Older Adults</h2>

@@ -30,8 +30,8 @@
       </div>
       <!-- END .involved-footer -->
       <div class="logos-footer">
-        <img src="wp-content/themes/bhs-theme/assets/img/adp-logo.png" alt="ADP Logo" width="84" height="84">
-        <img src="wp-content/themes/bhs-theme/assets/img/cart-logo.png" alt="Cart Logo" width="98" height="89">
+        <img src="<?php bloginfo('template_directory'); ?>/assets/img/adp-logo.png" alt="ADP Logo" width="84" height="84">
+        <img src="<?php bloginfo('template_directory'); ?>/assets/img/cart-logo.png" alt="Cart Logo" width="98" height="89">
       </div>
     </footer>
   </div>

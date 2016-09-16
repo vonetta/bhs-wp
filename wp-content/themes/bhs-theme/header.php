@@ -7,8 +7,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link rel="stylesheet" href="wp-content/themes/bhs-theme/style.css">
-  <link rel="icon" href="<?php bloginfo('template_directory'); ?>/bhs-theme/assets/img/favicon.ico">
+  <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/style.css">
+  <link rel="icon" href="<?php bloginfo('template_directory'); ?>/assets/img/favicon.ico">
   <?php wp_head(); ?>
 </head>
 
@@ -16,7 +16,7 @@
   <div class="container">
     <header class="header" role="banner">
       <a href="/">
-        <img src="wp-content/themes/bhs-theme/assets/img/logo.png" alt="BHS Logo" class="logo pixelated" width="121" height="121" >
+        <img src="<?php bloginfo('template_directory'); ?>/assets/img/logo.png" alt="BHS Logo" class="logo pixelated" width="121" height="121" >
       </a>
       <div class="top-header">
         <?php
@@ -36,7 +36,7 @@
 
 </div> -->
         <!-- END .top-nav -->
-        <a href="#" class="facebook-btn"><img src="wp-content/themes/bhs-theme/assets/img/icon_facebook.png" alt="Facebook Icon"></a>
+        <a href="#" class="facebook-btn"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icon_facebook.png" alt="Facebook Icon"></a>
         <div class="search-container">
           <form method="get" id="searchform" class="form-search" action="#">
             <label for="s" class="assistive-text hidden">
@@ -48,7 +48,7 @@
             </div>
           </form>
         </div>
-        <a href="#" class="donate-btn"><img src="wp-content/themes/bhs-theme/assets/img/button_donate.png" alt="Donate"></a>
+        <a href="#" class="donate-btn"><img src="<?php bloginfo('template_directory'); ?>/assets/img/button_donate.png" alt="Donate"></a>
       </div>
       <!-- END .top-header -->
     </header>

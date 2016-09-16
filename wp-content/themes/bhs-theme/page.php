@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
-<h1>2 column layout</h1>
-
+ <div class="content-container clear">
+ <div class="row">
           <div class="col-md-9">
         <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
           <!-- tbs class for headers -->
@@ -23,7 +23,9 @@
         <?php endif; ?>
       </div>
 
+   </div>
 
+      </div>
 
 
 

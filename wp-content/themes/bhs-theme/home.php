@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-  <div class="container">
+  <div class="content-container clear">
     <div class="row">
       <div class="col-md-9">
         <div class="page-header">
@@ -36,8 +36,8 @@
         <?php endif; ?>
       </div>
 
-      <?php get_sidebar('blog'); ?>
 
+</div>
     </div><!-- END .row -->
 
 <?php get_footer(); ?>

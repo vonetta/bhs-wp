@@ -1,7 +1,5 @@
 <?php get_header(); ?>
 
-<h1>2 column layout</h1>
-
 <p><em>By <?php the_author(); ?>
      on <?php echo the_time('l, F jS, Y'); ?>
      in <?php the_category( ', ' ); ?>

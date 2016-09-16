@@ -6,6 +6,8 @@
 <?php get_header(); ?>
 
 
+ <div class="content-container clear">
+
       <div class="col-md-12">
         <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
           <!-- tbs class for headers -->
@@ -26,7 +28,7 @@
 
         <?php endif; ?>
 
-
+</div>
 
     </div>
 
