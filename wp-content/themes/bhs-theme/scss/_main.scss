@@ -1,0 +1,38 @@
+.content-container {
+    background-color: $alabaster
+;
+    padding-bottom: 20px;
+    /*    padding-left: 5px;
+*/
+    margin-top: -45px;
+}
+
+.main {
+    width: 675px;
+    float: left;
+    margin-top: -38px;
+}
+
+.main .col-one {
+    float: left;
+    width: 400px;
+    margin-left: 12px;
+}
+
+.services {
+    font-family: serif;
+    display: inline;
+    text-align: left;
+    margin-left: 12px;
+}
+
+.large-img {
+    margin: auto;
+    display: block;
+}
+
+.prevention {
+    font-family: serif;
+    color: $meteor;
+    font-size: 18px;
+}

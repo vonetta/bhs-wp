@@ -1,0 +1,27 @@
+/*==================================
+=            Breadcrumb            =
+==================================*/
+
+.breadcrumb-container {
+    background-color: $white;
+    ;
+}
+
+.breadcrumb-container .breadcrumb {
+    float: right;
+    padding-right: 15px;
+    list-style: none;
+    font-size: 1em;
+}
+
+.breadcrumb-container .breadcrumb a {
+    color: $black;
+    ;
+    text-decoration: none;
+    padding: 10px 0 10px 10px;
+    display: inline;
+}
+
+.breadcrumb-container .breadcrumb li {
+    float: left;
+}

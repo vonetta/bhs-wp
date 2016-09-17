@@ -1,0 +1,87 @@
+.sidebar {
+    width: 265px;
+    padding-right: 15px;
+    float: left;
+    background-color: $alabaster;
+}
+
+.menu-options li {
+    list-style: none;
+    border-bottom: 1px solid $black;
+    ;
+    text-align: left;
+    margin-left: -27px;
+    margin-bottom: 8px;
+    line-height: 1.5;
+}
+
+.first-list {
+    border-bottom: 1px solid $black;
+    ;
+}
+
+ul .sub-menu li {
+    border-bottom: none;
+    margin-left: 10px;
+    font-size: 11px;
+}
+
+.get-involved,
+.success-stories {
+    width: 240px;
+    height: 125px;
+    background-color: $mercury;
+    margin: 0 auto;
+}
+
+.get-involved img {
+    margin-left: 10px;
+    margin-top: 15px;
+    float: left;
+}
+
+.get-involved p {
+    float: left;
+    font-size: 12px;
+    width: 115px;
+    margin-left: 5px;
+}
+
+.success {
+    color: $black;
+    ;
+}
+
+.success-stories img {
+    margin-left: 10px;
+    margin-top: 15px;
+    float: left;
+}
+
+.success-stories p {
+    float: left;
+    font-size: 12px;
+    width: 115px;
+    margin-left: 5px;
+}
+
+a.donate {
+    background-color: $meteor;
+    padding: 10px 99px;
+    text-decoration: none;
+    color: $white;
+    ;
+    margin-left: 5px;
+}
+
+.sm-aside {
+    float: right;
+    width: 250px;
+}
+
+.social-media {
+    background-color: $wildSand;
+    width: 238px;
+    height: 35px;
+    margin-top: 10px;
+}

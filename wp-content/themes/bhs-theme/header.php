@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/style.css">
+  <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/scss/style.scss">
   <link rel="icon" href="<?php bloginfo('template_directory'); ?>/assets/img/favicon.ico">
   <?php wp_head(); ?>
 </head>

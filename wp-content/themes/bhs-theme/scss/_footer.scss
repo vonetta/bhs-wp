@@ -1,0 +1,39 @@
+.footer {
+    height: 200px;
+    background-color: $blueZodiac;
+    ;
+    color: $doveGray;
+    ;
+}
+
+.footer div {
+    float: left;
+    width: 25%;
+    padding-left: 15px;
+}
+
+.footer div h4 {
+    background-color: $blackPearl;
+    height: 40px;
+    line-height: 40px;
+    color: $alabaster;
+    white-space: nowrap;
+    width: 200px;
+    text-align: center;
+    font-weight: normal;
+}
+
+.footer div.logos-footer {
+    margin-top: 40px;
+}
+
+.footer div.logos-footer img {
+    padding: 5px;
+}
+
+.copyright {
+    color: $white;
+    ;
+    font-size: 12px;
+    text-align: center;
+}

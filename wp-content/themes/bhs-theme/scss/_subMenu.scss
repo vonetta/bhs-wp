@@ -1,0 +1,21 @@
+/*========================================
+  =            wordpress styles            =
+  ========================================*/
+
+@media (min-width: 768px) {
+    .sub-menu {
+        display: none;
+        position: absolute;
+        background: $mineShaft;
+        padding: 15px 10px;
+        width: 200px;
+    }
+    li:hover .sub-menu {
+        display: block
+    }
+}
+
+.sub-menu li {
+    margin-bottom: 10px;
+    list-style: none;
+}

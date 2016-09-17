@@ -1,0 +1,81 @@
+header {
+    position: relative;
+}
+
+h3 {
+    color: $meteor;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+hr {
+    margin-top: 10px;
+    width: 95%;
+}
+
+.logo {
+    margin-top: 20px;
+}
+
+.facebook-btn {
+    position: absolute;
+    top: 20px;
+    left: 360px;
+}
+
+.input-append {
+    position: relative;
+}
+
+button.icon {
+    position: absolute;
+    top: 1px;
+    left: 222px;
+    border-radius: 15px;
+    border: none;
+    background-color: transparent;
+}
+
+.search-container {
+    position: absolute;
+    top: 25px;
+    left: 510px;
+    width: 258px;
+    height: 37px;
+}
+
+.search-container .search-input {
+    background-color: transparent;
+    border: medium none;
+    color: $dustyGray;
+    float: left;
+    font-size: 0.9em;
+    height: auto;
+    margin: 8px 5px 0px 12px;
+    width: 185px;
+}
+
+.search-container .search-submit {
+    margin: 5px 0 0 10px;
+    width: 25px;
+}
+
+.search-query {
+    background-color: $white;
+    border-radius: 14px;
+    border: none;
+    padding: 4px;
+    padding-left: 10px;
+    padding-right: 82px;
+    margin-right: 3px;
+}
+
+.donate-btn {
+    position: absolute;
+    top: 20px;
+    left: 750px;
+    width: 150px;
+    height: 30px;
+}

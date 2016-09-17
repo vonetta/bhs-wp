@@ -1,0 +1,33 @@
+article h4 {
+    font-size: 14px;
+}
+
+article h2,
+article .two {
+    border-bottom: .5px solid $black;
+    font-size: 18px;
+    color: $chathamsBlue;
+    font-weight: 100;
+}
+
+article .article-content {
+    font-size: 10px;
+    font-weight: 200;
+}
+
+.date {
+    color: $meteor;
+    font-size: 10px;
+    font-weight: 100;
+    line-height: 1;
+}
+
+.author {
+    color: $mercury;
+    font-size: 10px;
+    font-weight: 100;
+}
+
+article.post {
+    margin: 20px 0 40px;
+}

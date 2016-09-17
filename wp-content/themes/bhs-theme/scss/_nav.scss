@@ -1,0 +1,73 @@
+/*===============================
+=            Top Nav            =
+===============================*/
+
+.top-nav {
+    position: absolute;
+    top: 15px;
+    left: 80px;
+    font-size: 14px;
+}
+
+.top-nav li {
+    display: inline;
+    padding-left: 3px;
+}
+
+.top-nav li::before {
+    content: "|";
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.top-nav li:first-child:before {
+    content: " ";
+}
+
+.top-nav a {
+    text-decoration: none;
+    color: $white;
+}
+
+
+/*================================
+=            Main Nav            =
+================================*/
+
+nav {
+    border-top: 15px solid $doveGray;
+    border-bottom: 15px solid $doveGray;
+    background-color: $white;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: -75px;
+}
+
+nav ul {
+    list-style-type: none;
+    overflow: hidden;
+    margin-left: 90px;
+    margin-top: 10px;
+}
+
+nav li a {
+    display: block;
+    color: $black;
+    ;
+    padding: 0px 20px;
+    text-decoration: none;
+}
+
+nav li {
+    float: left;
+}
+
+nav a:hover {
+    background-color: $silver;
+}
+
+
+/*nav li a:after {
+    content: "|";
+}
+*/
