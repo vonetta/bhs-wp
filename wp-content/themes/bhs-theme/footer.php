@@ -50,10 +50,6 @@
     </div><!-- /.modal-content -->
   </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
-<div class="modal-body">
- <?php
-    if( function_exists( 'ninja_forms_display_form' ) ){ ninja_forms_display_form( 1 ); }
-  ?>
     </div> <!-- /container -->
     </footer>
   </div>

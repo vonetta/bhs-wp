@@ -10,7 +10,7 @@
           <!-- tbs class for headers -->
           <div class="page-header">
             <!-- the_title() is WP function that shows the title of the post -->
-
+            <h1><?php the_title(); ?> ("from single.php")</h1>
             <?php
               $thumbnail_id = get_post_thumbnail_id();
               $thumbnail_url = wp_get_attachment_image_src( $thumbnail_id, 'thumbnail-size', true );
@@ -18,7 +18,7 @@
             ?>
             <p class="featured-image">
               <img src="<?php echo $thumbnail_url[0]; ?>" alt="<?php echo $thumbnail_meta; ?>">
-              <h1><?php the_title(); ?> ("from single.php")</h1>
+
             </p>
 
           </div>

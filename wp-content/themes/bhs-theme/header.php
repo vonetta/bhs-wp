@@ -23,7 +23,9 @@
           $args = array(
           'menu'    => 'top-menu',
           'menu_class' => 'top-nav',
-           'container' => 'false'
+           'container' => 'false',
+           'menu_class' => 'nav navbar-nav',
+           'walker' => new wp_bootstrap_navwalker()
            );
            wp_nav_menu( $args );
         ?>

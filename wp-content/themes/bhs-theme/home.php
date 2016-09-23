@@ -44,7 +44,7 @@
               // grab the meta of the thumbnail
               $thumbnail_meta = get_post_meta( $thumbnail_id, '_wp_attachment_image_alt', true );
                 ?>
-               <a href="<?php the_permalink(); ?>"><img src="<?php echo $thumbnail_url[0]; ?>" alt="<?php echo $thumbnail_meta; ?>"></a>
+               <a href="<?php the_permalink(); ?>"><img src="<?php echo $thumbnail_url[0]; ?>"  alt="<?php the_title(); ?> featured image"></a>
                  <div class="carousel-caption"><?php the_title(); ?></div>
                </div>
                <!-- END .item -->
