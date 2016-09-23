@@ -1,5 +1,7 @@
 <?php get_header(); ?>
-
+<p class="featured-image">
+  <img src="<?php echo $thumbnail_url[0]; ?>" alt="<?php echo $thumbnail_meta; ?>">
+</p>
 <p><em>By <?php the_author(); ?>
      on <?php echo the_time('l, F jS, Y'); ?>
      in <?php the_category( ', ' ); ?>

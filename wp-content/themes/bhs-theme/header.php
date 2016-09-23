@@ -27,14 +27,6 @@
            );
            wp_nav_menu( $args );
         ?>
-        <!--   <li><a href="#">Home</a></li>
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">FAQ</a></li>
-          <li><a href="#">Contact</a></li> -->
-
-<!--         <div id="navbar" class="navbar-collapse collapse">
-
-</div> -->
         <!-- END .top-nav -->
         <a href="#" class="facebook-btn"><img src="<?php bloginfo('template_directory'); ?>/assets/img/icon_facebook.png" alt="Facebook Icon"></a>
         <div class="search-container">

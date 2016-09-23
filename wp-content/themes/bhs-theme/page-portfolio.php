@@ -25,7 +25,7 @@
          $thumbnail_url = wp_get_attachment_image_src( $thumbnail_id, 'thumbnail-size', true );
        ?>
         <!-- dynamically create images -->
-        <p><a href="<?php the_permalink(); ?>"><img src="<?php echo $thumbnail_url[0]; ?>" alt="<?php the_title(); ?> graphic"></a></p>
+        <p><a href="<?php the_permalink(); ?>"><img src="<?php echo $thumbnail_url[0]; ?>" alt="<?php the_title(); ?> featured image"></a></p>
         <h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
       </div>
        <?php $portfolio_count = $the_query->current_post + 1; ?>
