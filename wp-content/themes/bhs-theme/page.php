@@ -1,8 +1,9 @@
 <?php get_header(); ?>
 
  <div class="content-container clear">
- <div class="row">
+
           <div class="col-md-9">
+           <div class="row">
         <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
           <!-- tbs class for headers -->
           <div class="page-header">

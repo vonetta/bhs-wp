@@ -4,17 +4,17 @@
 
   <div class="page-header">
        <div class="row">
-         <div class="col-xs-9">
+         <div class="col-md-6">
            <h1>Players</h1>
          </div>
-         <div class="col-xs-3 prev-next">
+         <div class="col-xs-6 prev-next">
           <?php next_post_link( '%link', '<span class="glyphicon glyphicon-circle-arrow-left"></span>' ); ?>
           <a href="<?php bloginfo('url'); ?>/?p=65"><span class="glyphicon glyphicon-th"></span></a>
           <?php previous_post_link( '%link', '<span class="glyphicon glyphicon-circle-arrow-right"></span>' ); ?>
           </div>
        </div>
      </div> <!-- END .page-header -->
-    <div class="row">
+  <!--   <div class="row"> -->
 
         <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
            <div class="col-sm-5 portfolio-image">

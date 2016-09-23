@@ -1,8 +1,8 @@
 <?php get_header(); ?>
 
   <div class="content-container clear">
-    <div class="row">
-      <div class="col-md-9">
+    <!-- <div class="row"> -->
+      <div class="col-md-12">
         <div class="page-header">
            <!-- gives us the name of the page itself -->
             <h1><?php wp_title(''); ?></h1>
