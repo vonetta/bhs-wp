@@ -1,4 +1,7 @@
 <?php
+//bootstrap nav walker
+require_once('wp_bootstrap_navwalker.php');
+
 function theme_styles() {
     wp_enqueue_style( 'bootstrap_css', get_template_directory_uri() . '/node_modules/bootstrap/dist/css/bootstrap.min.css' );
 
@@ -17,13 +20,12 @@ function theme_js() {
 
      wp_enqueue_script( 'bootstrap_js', get_template_directory_uri() . '/node_modules/bootstrap/dist/js/bootstrap.min.js', array('jquery'), '', true );
 
-
+     wp_enqueue_script('theme_js', get_template_directory_uri().
+    '/assets/js/theme.js', array('jquery', 'bootstrap_js'), '', true);
 }
 
 add_action( 'wp_enqueue_scripts', 'theme_js' );
 
-wp_enqueue_script('theme_js', get_template_directory_uri().
-    '/assets/js/theme.js', array('jquery', 'bootstrap_js'), '', true);
 
 add_theme_support( 'menus' );
 

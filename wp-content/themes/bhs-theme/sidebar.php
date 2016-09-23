@@ -6,5 +6,5 @@
 
     <?php endif; ?>
 </aside>
-        <?php get_footer(); ?>
+
 

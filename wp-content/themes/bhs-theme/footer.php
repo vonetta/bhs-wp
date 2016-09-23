@@ -33,6 +33,28 @@
         <img src="<?php bloginfo('template_directory'); ?>/assets/img/adp-logo.png" alt="ADP Logo" width="84" height="84">
         <img src="<?php bloginfo('template_directory'); ?>/assets/img/cart-logo.png" alt="Cart Logo" width="98" height="89">
       </div>
+
+      <div class="modal fade" tabindex="-1" role="dialog" id="myContactForm">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Contact Us</h4>
+      </div>
+      <div class="modal-body">
+    <?php if( function_exists( 'ninja_forms_display_form' ) ){ ninja_forms_display_form( 1 ); } ?>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal" data>Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+<div class="modal-body">
+ <?php
+    if( function_exists( 'ninja_forms_display_form' ) ){ ninja_forms_display_form( 1 ); }
+  ?>
+    </div> <!-- /container -->
     </footer>
   </div>
   <!-- END .container -->

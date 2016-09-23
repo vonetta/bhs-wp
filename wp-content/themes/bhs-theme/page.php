@@ -17,16 +17,10 @@
           <div class="page-header">
             <h1>Wups!</h1>
           </div>
-
           <p>Looks like we have no content for this page?</p>
-
         <?php endif; ?>
       </div>
-
    </div>
-
       </div>
-
-
 
 <?php get_footer(); ?>
