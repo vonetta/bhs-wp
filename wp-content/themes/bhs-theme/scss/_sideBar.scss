@@ -1,10 +1,24 @@
 .sidebar {
     margin-top: 0px;
     color: $tundora;
-    /*    margin-left: 700px;
-*/
 }
 
-.sidebar h3 {
+.textwidget {
+    text-align: justify;
+}
+
+.sidebar-page h3 {
     color: $gray;
+}
+
+.sidebar-page {
+    margin-top: -250px;
+    color: $tundora;
+    margin-left: 690px;
+}
+
+.sidebar-blog {
+    margin-top: -610px;
+    color: $tundora;
+    margin-left: 700px;
 }

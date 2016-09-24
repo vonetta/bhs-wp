@@ -1,13 +1,13 @@
 <?php
 /*
-  Template Name: Full Width Template
+  Template Name: Contact Page template
  */
 ?>
 <?php get_header(); ?>
 
  <div class="content-container clear">
-
-      <div class="col-md-12">
+<!--   <div class="row"> -->
+          <div class="col-md-9">
         <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
           <!-- tbs class for headers -->
           <div class="page-header">
@@ -22,26 +22,10 @@
           <div class="page-header">
             <h1>Wups!</h1>
           </div>
-
           <p>Looks like we have no content for this page?</p>
-
         <?php endif; ?>
+      </div>
 
-</div>
-
-<!-- Example row of columns -->
-<div class="row">
-  <div class="col-md-4">
-      <?php if ( dynamic_sidebar( 'front-left' ) ); ?>
-  </div>
-  <div class="col-md-4">
-    <?php if ( dynamic_sidebar( 'front-center' ) ); ?>
- </div>
-  <div class="col-md-4">
-    <?php if ( dynamic_sidebar( 'front-right' ) ); ?>
-  </div>
-</div>
-
-    </div>
+      </div>
 
 <?php get_footer(); ?>

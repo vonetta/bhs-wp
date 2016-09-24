@@ -1,4 +1,4 @@
-<aside class="col-md-3 sidebar">
+<aside class="col-md-3 sidebar-page">
     <?php if ( ! dynamic_sidebar( 'page' ) ): ?>
     <!-- if no sidebar, show this content -->
     <h3>Set Up this sidebar</h3>
@@ -6,5 +6,3 @@
 
     <?php endif; ?>
 </aside>
-
-
